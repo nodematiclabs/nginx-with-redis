@@ -1,0 +1,1022 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+height: 625
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1279.3333740234375
+  viewPortHeight: 625
+  horizontalOffset: -268
+  verticalOffset: -11
+addInfo:
+  stages:
+    - control: prepend
+      class: p-button-secondary
+      icon: pi pi-plus
+    - name: Define
+      id: define
+      progress: 100
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#689F38"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: true
+      tasks:
+        - name: Task 1
+          progress: 100
+        - name: Task 2
+          progress: 100
+    - name: Measure
+      id: measure
+      progress: 0
+      details: ""
+      delayed: true
+      atRisk: true
+      blocked: true
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Anayze
+      id: analyze
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Improve
+      id: improve
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Control
+      id: control
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - control: append
+      class: p-button-secondary
+      icon: pi pi-plus
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+connectors:
+  - id: Straight ConnectorTiSTu
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 373
+      y: 142
+    targetPoint:
+      x: 373
+      y: 215
+    sourceID: UsersULNsB
+    targetID: Cloud RunkaLmZ
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Straight ConnectorUKvon
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 414.97
+      y: 315
+    targetPoint:
+      x: 481.28
+      y: 394
+    sourceID: Cloud RunkaLmZ
+    targetID: Amazon EC2TLNNJ
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Dashed Straight ConnectorsLf9R
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 175
+      y: 265
+    targetPoint:
+      x: 223
+      y: 265
+    sourceID: MemorystorequvUO
+    targetID: Cloud RunkaLmZ
+    addInfo:
+      viewConnector: 0
+    zIndex: 9
+  - id: Dashed Straight ConnectorGwW1O
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 825
+      y: 425.82
+    targetPoint:
+      x: 793
+      y: 414.18
+    sourceID: NginxbPAqf
+    targetID: DockerWZH6d
+    addInfo:
+      viewConnector: 0
+    zIndex: 13
+  - id: Dashed Straight ConnectorXOdGl
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 728.88
+      y: 346
+    targetPoint:
+      x: 720.12
+      y: 315
+    sourceID: DockerWZH6d
+    targetID: Artifact RegistryhrQo6
+    addInfo:
+      viewConnector: 0
+    zIndex: 14
+  - id: Dashed Straight ConnectorTyHBM
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 556
+      y: 265
+    targetPoint:
+      x: 523
+      y: 265
+    sourceID: Artifact RegistryhrQo6
+    targetID: Cloud RunkaLmZ
+    addInfo:
+      viewConnector: 0
+    zIndex: 15
+  - id: Straight ConnectorUKvonVUe04
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 325.65
+      y: 315
+    targetPoint:
+      x: 250.85
+      y: 394
+    sourceID: Cloud RunkaLmZ
+    targetID: KubernetesMaPWg
+    addInfo:
+      viewConnector: 0
+    zIndex: 17
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #008031; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1662455500/sds_logos/Nginx_Black_87_qtfqxe.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1662455500/sds_logos/Nginx_bzus5j.png);
+        border-radius: 50%"></div></div></div>'
+    id: NginxbPAqf
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Nginx
+        shortDescription: Efficiently serving and load balancing web content and applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Nginx
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Nginx
+      editableName: Nginx
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Proxy
+          type: Processor
+          portsIn:
+            job: request
+          portsOut:
+            job: request
+          serviceTime:
+            exp:
+              lambda: AverageProxyDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Proxy
+          AverageProxyDuration: 1
+      name: Nginx
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1662455500/sds_logos/Nginx_bzus5j.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1662455500/sds_logos/Nginx__0484848_hyc5to.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1662455500/sds_logos/Nginx_Black_87_qtfqxe.png
+      color: "#008031"
+      controlText: Nginx
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 875
+    offsetY: 444
+    zIndex: 1
+    outEdges:
+      - Dashed Straight ConnectorGwW1O
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #973029; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1659084940/sds_logos/Redis_Black_87_jvokqp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1659084940/sds_logos/Redis_je8m0f.png);
+        border-radius: 50%"></div></div></div>'
+    id: RedislbOVQ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Redis
+        shortDescription: Caching, messaging, and fast in-memory data storage and manipulation
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Redis
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Redis
+      editableName: Redis
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Redis
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659084940/sds_logos/Redis_je8m0f.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659084940/sds_logos/Redis__044448_eyhhls.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659084940/sds_logos/Redis_Black_87_jvokqp.png
+      color: "#973029"
+      controlText: Redis
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: -159
+    offsetY: 265
+    zIndex: 2
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #232F3E;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310169/sds_logos/AWS/Architecture_Service_Icons/Arch_Amazon-EC2_Black_87_xm0jzm.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310169/sds_logos/AWS/Architecture_Service_Icons/Arch_Amazon-EC2_g9zdlg.png);"></div><div
+        class="c-text"><div class="c-title">EC2</div><div
+        class="c-short-description">Deploying scalable virtual servers on the
+        cloud for diverse applications and workloads</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Amazon Web
+        Services</div></div></div></div></div>'
+    id: Amazon EC2TLNNJ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Amazon EC2
+        shortDescription: Deploying scalable virtual servers on the cloud for diverse
+          applications and workloads
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Amazon EC2
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Amazon EC2
+      editableName: EC2
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Amazon EC2
+      category: 0
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310169/sds_logos/AWS/Architecture_Service_Icons/Arch_Amazon-EC2_g9zdlg.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310169/sds_logos/AWS/Architecture_Service_Icons/Arch_Amazon-EC2__044448_sxo9be.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310169/sds_logos/AWS/Architecture_Service_Icons/Arch_Amazon-EC2_Black_87_xm0jzm.png
+      color: "#232F3E"
+      controlText: EC2
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 523.25
+    offsetY: 444
+    zIndex: 3
+    inEdges:
+      - Straight ConnectorUKvon
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #616161;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png);"></div><div
+        class="c-text"><div class="c-title">Users</div><div
+        class="c-short-description">Users accessing our application through or
+        via the Nginx system (with Redis caching)</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Users</div></div></div></div></div>'
+    id: UsersULNsB
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Users
+        shortDescription: Users accessing our application through or via the Nginx
+          system (with Redis caching)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Users
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Users
+      editableName: Users
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Work Item Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: work item
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenWorkItemCreations
+        - name: Request Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+        - name: Response Receiver
+          type: Storage
+          portsIn:
+            put: response
+            get: latest
+          portsOut:
+            stored: response
+        - name: Deployer
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Work Item Generator
+          AverageTimeBetweenWorkItemCreations: 1
+        - type: Generator
+          status: Idle
+          name: Request Generator
+          AverageTimeBetweenRequests: 1
+        - type: Storage
+          status: Idle
+          name: Response Receiver
+        - type: Processor
+          status: Idle
+          name: Deployer
+          AverageDeploymentDuration: 1
+      name: Users
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_ij2426.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png
+      color: "#616161"
+      controlText: Users
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 373
+    offsetY: 92
+    zIndex: 4
+    outEdges:
+      - Straight ConnectorTiSTu
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/memorystore_Black_87_wn7sti.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/memorystore_d3di3b.png);"></div><div
+        class="c-text"><div class="c-title">Memorystore (Redis)</div><div
+        class="c-short-description">Caching and managing data in Redis and
+        Memcached to improve application performance</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: MemorystorequvUO
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Memorystore
+        shortDescription: Caching and managing data in Redis and Memcached to improve
+          application performance
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Memorystore
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Memorystore
+      editableName: Memorystore (Redis)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Memorystore
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/memorystore_d3di3b.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/memorystore__044448_mqkepw.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/memorystore_Black_87_wn7sti.png
+      color: "#3871e0"
+      controlText: Memorystore
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 25
+    offsetY: 265
+    zIndex: 8
+    outEdges:
+      - Dashed Straight ConnectorsLf9R
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Run</div><div
+        class="c-short-description">Running stateless containers in a fully
+        managed serverless environment</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud RunkaLmZ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Run
+        shortDescription: Running stateless containers in a fully managed serverless environment
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Run
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Run
+      editableName: Cloud Run
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Cloud Run
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run__044448_vfqzy2.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png
+      color: "#3871e0"
+      controlText: Cloud Run
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 373
+    offsetY: 265
+    zIndex: 10
+    inEdges:
+      - Straight ConnectorTiSTu
+      - Dashed Straight ConnectorsLf9R
+      - Dashed Straight ConnectorTyHBM
+    outEdges:
+      - Straight ConnectorUKvon
+      - Straight ConnectorUKvonVUe04
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3478B3; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png);
+        border-radius: 50%"></div></div></div>'
+    id: DockerWZH6d
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Docker
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Docker
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Docker
+      editableName: Docker
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+      name: Docker
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker__044448_env9qq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png
+      color: "#3478B3"
+      controlText: Docker
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 743
+    offsetY: 396
+    zIndex: 11
+    inEdges:
+      - Dashed Straight ConnectorGwW1O
+    outEdges:
+      - Dashed Straight ConnectorXOdGl
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry_Black_87_icthnc.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry_pq6vpa.png);"></div><div
+        class="c-text"><div class="c-title">Artifact Registry</div><div
+        class="c-short-description">Storing, managing, and securing software
+        artifacts, such as container images and language packages</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Artifact RegistryhrQo6
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Artifact Registry
+        shortDescription: Storing, managing, and securing software artifacts, such as
+          container images and language packages
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Artifact Registry
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Artifact Registry
+      editableName: Artifact Registry
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Artifact Registry
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry_pq6vpa.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry__044448_hdcc5a.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry_Black_87_icthnc.png
+      color: "#3871e0"
+      controlText: Artifact Registry
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 706
+    offsetY: 265
+    zIndex: 12
+    inEdges:
+      - Dashed Straight ConnectorXOdGl
+    outEdges:
+      - Dashed Straight ConnectorTyHBM
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #2c62e2;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Kubernetes_Black_87_xnxpag.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Kubernetes_lamy9f.png);"></div><div
+        class="c-text"><div class="c-title">Kubernetes</div><div
+        class="c-short-description">Automating the deployment, scaling, and
+        management of containerized applications</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: KubernetesMaPWg
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubernetes
+        shortDescription: Automating the deployment, scaling, and management of
+          containerized applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Kubernetes
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubernetes
+      editableName: Kubernetes
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Scheduled Job Executor
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: trigger
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenJobs
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+        - name: Intrusion Detector
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: intrusion
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenIntrusions
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Scheduled Job Executor
+          AverageTimeBetweenJobs: 1
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+        - type: Generator
+          status: Idle
+          name: Intrusion Detector
+          AverageTimeBetweenIntrusions: 1
+      name: Kubernetes
+      category: 1
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Kubernetes_lamy9f.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Kubernetes_Black_nmc1j1.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Kubernetes_Black_87_xnxpag.png
+      color: "#2c62e2"
+      controlText: Kubernetes
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 203.5
+    offsetY: 444
+    zIndex: 16
+    inEdges:
+      - Straight ConnectorUKvonVUe04
+selectedItems:
+  width: 0
+  height: 0
